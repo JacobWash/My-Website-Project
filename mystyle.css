@@ -1,0 +1,46 @@
+header, body{
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, li{font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.Nav-Bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+}
+
+li.Nav-Bar1{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.Nav-Bar1:hover {
+    background-color: lightblue;
+  }
+
+div.Resume1, div.Resume2, div.Resume3{
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
