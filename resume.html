@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LYTWCR723"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4LYTWCR723');
+        </script>
+    </head>
+        
+    <body>
+        <header>
+            <h1><a href="index.html">Jacob Sandahl</a></h1>
+            <nav>                
+                <ul class="Nav-Bar">
+                    <li class="Nav-Bar1">Resume</li>
+                    <li class="Nav-Bar1"><a href="aboutme.html">About me</a></li>
+                    <li class="Nav-Bar1"><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1> Resume </h1>
+            <article>
+                <p> My name is Jacob Sandahl. I am currently a university student enrolled at Copenhagen Business School, Copenhagen, Denmark, where I study a Bachelor of Science in International Business. </p>
+                <p> Besides studying, I am working as a student assistant at KPMG Denmark, in their internal Finance department, during weekly reporting and assisting ad hoc projects in the Finance department. </p>
+                <p> My resume below provides an overview of my eduation and my work experience since boarding school through high school and university</p>
+                <p> Click on the button below to go to my LinkedIn Page and feel free to connect with me!</p>
+                <form
+                    action="https://www.linkedin.com/in/jacob-sandahl-87448b171/" method="get" target="_blank">
+                    <button id="my-LinkedIn-btn" type="submit">My LinkedIn Profile</button>
+                </form>
+            </article>
+                
+            <div class="Resume1">
+                <h3>Education</h3>
+                <ul>
+                    <li>BSc in International Business</li>
+                    <p> Copenhagen Business School (CBS) - 2019-2022</p>
+                    <hr>
+                    <li>Exchange Program</li>
+                    <p> The George Washington University - Fall 2021</p>
+                    <hr>
+                    <li>Office Clerk Education - Specialized in Administration</li>
+                    <p> Aalborg Handelsskole - 2018-2019</p>
+                    <hr>
+                    <li>Continueing Education - 5 Weeks EUS Course</li>
+                    <p> Aalborg Handelsskole - Summer 2019</p>
+                    <hr>
+                    <li>HHX at Commercial Upper-Secondary School</li>
+                    <p> Zealand Business College Ringsted (ZBC) - 2015-2018</p>
+                    <hr>
+                    <li>General Certificate of Secondary Education</li>
+                    <p> Dagmarskolen-Campusskolen - 2005-2015</p>
+                    <p> Municipal primary and secondary school</p>
+                    <hr>
+                </ul>
+            </div>
+
+            <div class="Resume2">
+                <h3>Work Experience</h3>
+                <ul>
+                    <li>Student assistant - KPMG P/S</li>
+                    <p> April 2020 - </p>
+                    <p> Student Assistant in the internal Finance department with focus on weekly and monthly reporting to partners. Ad hoc tasks in various fields within the Finance area of KPMG</p>
+                    <hr>
+                    <li>Client Operations Student Assistant – Banking Circle S.A.</li>
+                    <p> August 2019 - March 2020</p>
+                    <p> Student Assistant in the Client Operations Team with focus on the creation of new customers in internal systems. </p>
+                    <hr>
+                    <li>KYC Assistant - Banking Cirle S.A.</li>
+                    <p> August 2018 - August 2019</p>
+                    <p> Internship in Luxembourg as part of the Danish program, PIU (Intern Abroad)
+                        Worked in the KYC Team with focus on the onboarding of new customers and Ongoing Due Diligence. Various other tasks performed in the Monitoring, Operations and Client Operations Team.</p>
+                    <hr>
+                    <li>Service Ambassador - Tivoli A/S</li>
+                    <p> October 2017 - August 2018</p>
+                    <p> Ambassador for the good and enthralling service experience in Tivoli.</p>
+                    <hr>
+                    <li>Employee - Woodhouse, Tivoli A/S</li>
+                    <p> March 2017 - August 2018</p>
+                    <p> Been a part of Woodhouse Lounge, Burger Bar, and Kitchen. Seater in busy periods with focus on good customer service and optimization of space in the restaurant.</p>
+                    <hr>
+                    <li>Employee under 18 years - Woodhouse, Tivoli A/S</li>
+                    <p> July 2015 - December 2016</p>
+                    <p> Been a part of the Frozen Yoghurt stand. Learned to offer the good service experience.</p>
+                    <hr>
+                    <li>Delivery Boy - FK Distribution</li>
+                    <p> May 2012 - January 2014</p>
+                    <p> Early responsibility for my own route and for delivering things on time.</p>
+                    <hr>
+                </ul>
+            </div>
+
+            <div class="Resume3">
+                <h3>Voluentary Work</h3>
+                <ul>
+                    <li>Board Member and Head of Finance - CBS FinTech</li>
+                    <p> December 2019 - </p>
+                    <p> CBS FinTech is a student organization at CBS, with the purpose of engaging students to the world and industry of FinTech (Financial Technology). My responsibilities include the financial and practical area of the administration of the organization.</p>
+                    <hr>
+                    <li>Buddy for Incoming Exchange Student</li>
+                    <p>January 2020</p>
+                    <p>Buddy for an exchange student from Hong Kong. Helping out with practical questions and securing a good and nice start to his stay in Denmark and at CBS.</p>
+                    <hr>
+                    <li>Work Experience in 9th Grade</li>
+                    <p> January 2015</p>
+                    <p> Auditor Trainee at Sønderup I/S Chartered Accountant.</p>
+                </ul>
+            </div>
+        </main>
+
+            <footer>
+                <hr>
+                <p>Copyright Jacob Sandahl 2021 - School Project - GWU - BADM2301</p>
+            </footer>
+            
+            <script type="text/javascript">
+                var clickCount = 0
+                var myBtn = document.getElementById("my-LinkedIn-btn")
+                function myBtnClick() {
+                    clickCount = clickCount + 1
+                    console.log("YOU CLICKED MY LINKEDIN PROFILE", clickCount, "TIMES! :-)")
+                }
+                myBtn.addEventListener("click", myBtnClick, false)
+            </script>
+    </body>
+</html>
